@@ -1,0 +1,20 @@
+# Ignore all Cargo build directories (any depth)
+**/target/
+
+# Ignore Cargo lock files everywhere
+**/Cargo.lock
+
+# Rustfmt backup files
+*.rs.bk
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
