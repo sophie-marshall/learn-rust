@@ -1,9 +1,6 @@
 # Ignore all Cargo build directories (any depth)
 **/target/
 
-# Ignore Cargo lock files everywhere
-**/Cargo.lock
-
 # Rustfmt backup files
 *.rs.bk
 
